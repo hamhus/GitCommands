@@ -64,6 +64,7 @@ Then delete the local branch:
 The -d means delete.
 
 **Remove/Update existing remote**
+
 To List all remotes
 **git remote -v**
 
