@@ -62,3 +62,18 @@ Then delete the local branch:
 
 **git branch -d develop**
 The -d means delete.
+
+**Remove/Update existing remote**
+To List all remotes
+**git remote -v**
+
+To update the existing remote
+**git remote set-url origin <Remote_Repo>**
+
+To remove the existing repo
+**git remote remove origin**
+
+To rename existing repo
+**git remote rename <old-name> <new-name>**
+**git remote rename origin backup**
+
